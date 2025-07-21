@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Demo</title>
+    <title>Unity WebGL Player | Demo-URP</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -24,20 +24,20 @@
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">Demo</div>
+        <div id="unity-build-title">Demo-URP</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebXRDist.loader.js";
+      var loaderUrl = buildUrl + "/Dist.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebXRDist.data",
-        frameworkUrl: buildUrl + "/WebXRDist.framework.js",
-        codeUrl: buildUrl + "/WebXRDist.wasm",
+        dataUrl: buildUrl + "/Dist.data",
+        frameworkUrl: buildUrl + "/Dist.framework.js",
+        codeUrl: buildUrl + "/Dist.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Demo",
-        productVersion: "0.1",
+        productName: "Demo-URP",
+        productVersion: "0.1.0",
       };
 
       var container = document.querySelector("#unity-container");
