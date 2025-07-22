@@ -99,23 +99,8 @@
         false
       );
 
-      enterARButton.addEventListener(
-        "click",
-        function (event) {
-          unityInstance.Module.WebXR.toggleAR();
-        },
-        false
-      );
-      enterVRButton.addEventListener(
-        "click",
-        function (event) {
-          unityInstance.Module.WebXR.toggleVR();
-        },
-        false
-      );
-
       // ==== 🔐 Cross-platform motion permission ====
-      /*
+
       async function requestMotionPermissionIfNeeded() {
         const isiOS =
           /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -199,7 +184,7 @@
           }
         },
         false
-      );*/
+      );
 
 
     </script>
